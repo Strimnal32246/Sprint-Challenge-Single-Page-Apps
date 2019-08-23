@@ -5,7 +5,7 @@ import WelcomePage from "./WelcomePage";
 import LocationsList from "./LocationsList";
 import EpisodesList from "./EpisodesList";
 
-export default function AppRouter() {
+export default function Router() {
   return (
     <div className="page-view ui bottom attached segment active tab">
       <Switch>
